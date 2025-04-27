@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vårdbasen - Sommarjobb i Norge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-buttons">
+            <a href="index.html" class="home-button" data-translate="hem">Hem</a>
+            <div class="language-selector">
+                <button class="language-button" id="languageButton">
+                    <img src="https://flagcdn.com/w20/se.png" alt="Svenska" class="flag-icon">
+                    <span class="arrow-down">▼</span>
+                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                    <button class="language-option" data-lang="sv">
+                        <img src="https://flagcdn.com/w20/se.png" alt="Svenska">
+                        Svenska
+                    </button>
+                    <button class="language-option" data-lang="no">
+                        <img src="https://flagcdn.com/w20/no.png" alt="Norsk">
+                        Norsk
+                    </button>
+                </div>
+            </div>
+            <button class="about-button" id="optionsButton" data-translate="alternativ">Alternativ</button>
+        </div>
+        <h1 data-translate="vardbasen">Vårdbasen</h1>
+        <h2 data-translate="sommarjobb">Din väg till sommarjobb i Norge.</h2>
+    </header>
+
+    <div class="sliding-menu" id="slidingMenu">
+        <div class="menu-content">
+            <h3 data-translate="alternativ">Alternativ</h3>
+            <ul>
+                <li><a href="about.html" data-translate="om">Om Vårdbasen</a></li>
+                <li><a href="#" data-translate="faq">FAQ</a></li>
+                <li><a href="#" data-translate="jobb">Att tänka på inför jobb i Norge</a></li>
+                <li><a href="#" data-translate="personuppgifter">Personuppgifter</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="job-listings">
+            <div class="job-card">
+                <h3>Sommervikar - Sykepleier</h3>
+                <p>Oslo Universitetssykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Sykepleier</p>
+                <p>Lønn: 350 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Helsefagarbeider</h3>
+                <p>Bergen Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Helsefagarbeider</p>
+                <p>Lønn: 280 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Sykepleier</h3>
+                <p>Stavanger Universitetssykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Sykepleier</p>
+                <p>Lønn: 340 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Helsefagarbeider</h3>
+                <p>Trondheim Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Helsefagarbeider</p>
+                <p>Lønn: 270 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Sykepleier</h3>
+                <p>Tromsø Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Sykepleier</p>
+                <p>Lønn: 360 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Helsefagarbeider</h3>
+                <p>Kristiansand Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Helsefagarbeider</p>
+                <p>Lønn: 290 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Sykepleier</h3>
+                <p>Bodø Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Sykepleier</p>
+                <p>Lønn: 355 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Helsefagarbeider</h3>
+                <p>Ålesund Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Helsefagarbeider</p>
+                <p>Lønn: 275 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+
+            <div class="job-card">
+                <h3>Sommervikar - Sykepleier</h3>
+                <p>Haugesund Sykehus</p>
+                <p>Periode: Juni - August 2024</p>
+                <p>Stilling: Sykepleier</p>
+                <p>Lønn: 345 NOK/timen</p>
+                <button class="apply-button">Sök nu</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vårdbasen - Alla rättigheter förbehållna</p>
+    </footer>
+
+    <!-- Registration Modal -->
+    <div class="modal" id="registrationModal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Registrera dig på under två minuter för att söka jobbet</h2>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="term">Vilken termin på läkarprogrammet går du?</label>
+                    <select id="term" name="term" required>
+                        <option value="">Välj termin</option>
+                        <option value="1">Termin 1</option>
+                        <option value="2">Termin 2</option>
+                        <option value="3">Termin 3</option>
+                        <option value="4">Termin 4</option>
+                        <option value="5">Termin 5</option>
+                        <option value="6">Termin 6</option>
+                        <option value="7">Termin 7</option>
+                        <option value="8">Termin 8</option>
+                        <option value="9">Termin 9</option>
+                        <option value="10">Termin 10</option>
+                        <option value="11">Termin 11</option>
+                        <option value="12">Termin 12</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="healthcareExperience">Har du tidigare erfarenhet av jobb inom sjukvård?</label>
+                    <select id="healthcareExperience" name="healthcareExperience" required>
+                        <option value="">Välj alternativ</option>
+                        <option value="none">Ingen tidigare erfarenhet</option>
+                        <option value="underskoterska">Undersköterska</option>
+                        <option value="sjukkoterska">Sjuksköterska</option>
+                        <option value="lakare">Läkare</option>
+                        <option value="annat">Annat</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="availableWeeks">Vilka veckor är du tillgänglig?</label>
+                    <textarea id="availableWeeks" name="availableWeeks" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-postadress</label>
+                    <input type="email" id="email" name="email" required placeholder="din@epost.se">
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+                    <label for="acceptTerms">Jag accepterar att mina personuppgifter behandlas</label>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="notRobot" name="notRobot" required>
+                    <label for="notRobot">Jag är inte en robot</label>
+                </div>
+                <button type="submit" class="submit-button">Skicka</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

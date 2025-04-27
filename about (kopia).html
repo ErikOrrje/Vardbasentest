@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Vårdbasen</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-buttons">
+            <a href="index.html" class="home-button" data-translate="hem">Hem</a>
+            <div class="language-selector">
+                <button class="language-button" id="languageButton">
+                    <img src="https://flagcdn.com/w20/se.png" alt="Svenska" class="flag-icon">
+                    <span class="arrow-down">▼</span>
+                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                    <button class="language-option" data-lang="sv">
+                        <img src="https://flagcdn.com/w20/se.png" alt="Svenska">
+                        Svenska
+                    </button>
+                    <button class="language-option" data-lang="no">
+                        <img src="https://flagcdn.com/w20/no.png" alt="Norsk">
+                        Norsk
+                    </button>
+                </div>
+            </div>
+            <button class="about-button" id="optionsButton" data-translate="alternativ">Alternativ</button>
+        </div>
+        <h1 data-translate="om">Om Vårdbasen</h1>
+    </header>
+
+    <div class="sliding-menu" id="slidingMenu">
+        <div class="menu-content">
+            <h3 data-translate="alternativ">Alternativ</h3>
+            <ul>
+                <li><a href="index.html" data-translate="hem">Hem</a></li>
+                <li><a href="about.html" data-translate="om">Om Vårdbasen</a></li>
+                <li><a href="#" data-translate="faq">FAQ</a></li>
+                <li><a href="#" data-translate="jobb">Att tänka på inför jobb i Norge</a></li>
+                <li><a href="#" data-translate="personuppgifter">Personuppgifter</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="about-content">
+        <div class="about-container">
+            <div class="about-section">
+                <h2>Bakgrund</h2>
+                <p>Vårdbasen startades 2025 av tre nyexaminerade läkarstudenter och en vars bror är programmerare. Under utbildningen jobbade en av oss, likt många andra kursare, i Norge under sommaren.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>Problemet</h2>
+                <p>Ett problem med att börja jobba i Norge är dock avsaknaden av en överblick av alla tillgängliga jobb för läkarstudenter. Detta gör det svårt att välja det jobb som passar en bäst.</p>
+            </div>
+
+            <div class="about-section">
+                <h2>En lösning</h2>
+                <p>I nuläget finns bemanningsföretag som erbjuder förmedlade anställningar, men dessa anser vi utgör en onödig mellanhand, med ökade kostnader för vården och dess anställda som konsekvens.</p>
+                <p>Därför skapade vi Vårdbasen, för att förenkla matchningen mellan läkarstudenter och jobb i Norge, helt utan onödiga mellanhänder.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vårdbasen - Alla rättigheter förbehållna</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
